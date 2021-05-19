@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <form>
+        <h1>Personal Details Form</h1>
+        <p>Please fill out the following information:</p>
+        <div>
+            <label for="firstName">First Name</label>
+            <input type="text" placeholder="First Name" id="firstName" name="firstName"> </input>
+        </div>
+        <div>
+            <label for="lasttName">Last Name</label>
+            <input type="text" placeholder="Last Name" id="lasttName" name="lastName"> </input>
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="email@gmail.com" id="email" name="email" required> </input>
+        </div>
+        <div>
+            <label for="password">Create a Password</label>
+            <input type="password" id="password" name="password" required> </input>
+        </div>
+        <div>
+            <label for="dateBirth">Date of Birth</label>
+            <input type="date" id="dateBirth" name="dateBirth" required> </input>
+        </div>
+        <div>
+            <label for="picture">Profile Picture</label>
+            <input type="file" id="picture" name="picture" required> </input>
+        </div>
+    
+        <div>
+            <label for="City" class="mylabel">City</label>
+            <input type="text" id="city" name="city" disabled value="Amsterdam"> </input>
+        </div>
+        <div>
+            <input type="checkbox" id="checkbox" name="checkbox"> </input>
+            <label for="checkbox">Want to subscribe for newsletter?</label>
+        </div>
+        <div>
+            <label for="description">Comments:</label>
+            <textarea id="description" name="description" rows="10" cols="50"> </textarea>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+            
+    </form>
+</body>
+</html>
